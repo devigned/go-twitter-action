@@ -24,7 +24,7 @@ runs:
   using: docker
   image: Dockerfile
   args:
-    - --message ${{ inputs.message }}
+    - --message "${{ inputs.message }}"
     - --apiKey ${{ inputs.apiKey }}
     - --apiKeySecret ${{ inputs.apiKeySecret }}
     - --accessToken ${{ inputs.accessToken }}
