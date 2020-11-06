@@ -17,3 +17,6 @@
 .idea
 
 .env
+
+bin
+tools
