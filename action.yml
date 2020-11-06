@@ -1,5 +1,5 @@
 name: go-twitter-action
-author: @devigned
+author: devigned
 description: Send a Tweet via an GitHub Action. See https://developer.twitter.com/en/portal/projects for details on how to setup and app.
 inputs:
   message:
