@@ -14,6 +14,7 @@ jobs:
         uses: actions/setup-go@v2
         with:
           go-version: '^1.15'
+      - uses: actions/checkout@v2
       - name: make ci
         env:
           COVERALLS_TOKEN: ${{ secrets.GITHUB_TOKEN }}

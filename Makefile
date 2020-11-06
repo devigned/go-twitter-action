@@ -85,12 +85,4 @@ test-cover: $(GOVERALLS) ; $(info $(M) running go test…)
 	$(Q) $(GOVERALLS) -coverprofile=profile.cov -service=github
 
 .PHONY: ci
-ci: fmt lint vet tidy test-cover docker-build
-
-## --------------------------------------
-## Docker
-## --------------------------------------
-
-.PHONY: docker-build
-docker-build: ; $(info $(M) Build the docker image for action)
-	$(Q) docker build .
+ci: fmt lint vet tidy test-cover build
