@@ -5,6 +5,7 @@ on:
       - 'v*' # push events for tags matching v for version (v1.0, etc)
 jobs:
   image:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: set env
