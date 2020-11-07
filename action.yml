@@ -1,6 +1,6 @@
-name: go-twitter-action
-author: devigned
-description: Send a Tweet via an GitHub Action. See https://developer.twitter.com/en/portal/projects for details on how to setup and app.
+name: Twitter Tweet Action
+author: David Justice
+description: Simple action to send a tweet via an GitHub Action using Twitter application credentials.
 branding:
   icon: message-circle
   color: blue
