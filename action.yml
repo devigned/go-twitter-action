@@ -1,6 +1,9 @@
 name: go-twitter-action
 author: devigned
 description: Send a Tweet via an GitHub Action. See https://developer.twitter.com/en/portal/projects for details on how to setup and app.
+branding:
+  icon: message-circle
+  color: blue
 inputs:
   message:
     description: 'message you want to tweet'
