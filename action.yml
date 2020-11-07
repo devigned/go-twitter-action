@@ -22,7 +22,7 @@ outputs:
     description: 'if something went wrong, the error message'
 runs:
   using: docker
-  image: docker://ghcr.io/devigned/go-twitter-action-v0:latest
+  image: docker://ghcr.io/devigned/go-twitter-action:0.0.2
   args:
     - --message
     - "${{ inputs.message }}"
